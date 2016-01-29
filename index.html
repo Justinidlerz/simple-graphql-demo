@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>simple GraphQL demo</title>
+</head>
+<body>
+	<div></div>
+	<script type="text/javascript" src="jquery.js"></script>
+	<script type="text/javascript">
+		$.ajax({
+			url : "/graph",
+			type : "post",
+			data : { "query" : "{hello}" },
+			success : function(data){
+				$("div").text(JSON.stringify(data));
+			}
+		})
+	</script>
+</body>
+</html>

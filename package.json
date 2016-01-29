@@ -1,0 +1,15 @@
+{
+	"name": "simple-GraphQL-demo",
+	"version": "1.0.0",
+	"author": "idler zhu <zqc.sunny@aliyun.com>",
+	"description": "a simple GraphQL demo",
+	"repository" : "http://github.com/justinidlerz/sinple-graphql-demo",
+	"scripts" : {
+		"start" : "node server.js"
+	},
+	"dependencies": {
+		"graphql": "^0.4.14"
+	},
+	"readme": "README.md",
+	"license": "MIT license"
+}
